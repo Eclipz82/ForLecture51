@@ -11,15 +11,15 @@ public class BankMain {
         }
     }
 
-    public void withdrawn(int amount) {
-        if (amount >= 700) {
-            System.out.println("Daily limit exceeded");
-        } else {
-            if (bankBalance - amount < 0) {
-                System.out.println("You don't have enough money");
-            } else {
-                bankBalance = bankBalance - amount;
-                System.out.println("You have " + amount + " euro on your bank account");
+//    public void withdrawn(int amount) {
+//        if (amount >= 700) {
+//            System.out.println("Daily limit exceeded");
+  //      } else {
+//            if (bankBalance - amount < 0) {
+//                System.out.println("You don't have enough money");
+  //          } else {
+   //             bankBalance = bankBalance - amount;
+     //           System.out.println("You have " + amount + " euro on your bank account");
             }
         }
     }
